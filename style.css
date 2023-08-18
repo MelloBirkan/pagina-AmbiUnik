@@ -1,20 +1,40 @@
-h1 {
-  font-family: "Inter", sans-serif;
-}
-
 body {
   font-family: "Open Sans";
+
+  text-align: center;
+  margin: 0;
 }
 
-#orange {
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+#orange,
+a,
+span {
   color: #ff9900;
 }
 
 p {
   color: #7d7987;
-}
 
-h1 {
-  font-size: 49px;
-  line-height: 56px;
+  font-size: 14px;
+  line-height: 28px;
 }
